@@ -54,6 +54,30 @@
         
         </header>
         <section id="contato">
+            <div class="container">
+            <h2 class="text-center">Contato</h2>
+<!--
+            Maneira antiga de criar o form, nome do campo vai fora do box.
+            <p>
+                <label for="txt-nome">Nome:</label> 
+                <input type="text" id="txt-nome">
+            </p>
+-->
+            <form class="text-center" action="index.html" method="post">
+                <p>
+                    <input class="form-control" type="text" id="txt-nome" placeholder="Nome">
+                </p>
+                <p>
+                    <input class="form-control" type="email" id="txt-email" placeholder="E-mail">
+                </p>
+                <p>
+                    <textarea class="form-control" id="txt-mensagem" placeholder="Mensagem" ></textarea>
+                </p>
+                <p> 
+                    <input class="form-control" type="submit" value="Enviar">
+                </p>
+            </form>
+            </div>
         </section>
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
