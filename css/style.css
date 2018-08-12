@@ -54,4 +54,9 @@ html, body {
 .img-center{    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;}
+    width: 20%;
+}
+
+.img-carousel{    
+    width: 100%;
+}
